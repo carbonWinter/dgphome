@@ -1,0 +1,24 @@
+@mixin font-Orbitron-Light{
+	font-family: 'orbitron', sans-serif;
+	font-weight: 300;
+}
+@mixin font-Orbitron-Black{
+	font-family: 'orbitron', sans-serif;
+	font-weight: 900;
+}
+@mixin font-SFPro-Regular{
+	font-family: 'SF Pro', sans-serif;
+	font-weight: 400;
+}
+@mixin font-SFPro-Light{
+	font-family: 'SF Pro', sans-serif;
+	font-weight: 300;
+}
+@mixin font-LoRes-12-OT-Regular{
+	font-family: 'lores-12', sans-serif;
+	font-weight: 400;
+}
+@mixin font-LoRes-12-OT-Bold{
+	font-family: 'lores-12', sans-serif;
+	font-weight: 700;
+}

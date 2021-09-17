@@ -1,0 +1,87 @@
+.main-menu{
+	background-color: black;
+	transition: all 0.3s ease-in-out 0s;
+	.navbar{
+		display: grid;
+		grid-column-gap: 16px;
+		grid-template-columns: 130px 1fr;
+		grid-template-rows: 99px;
+		width: 100%;
+		@media (max-width: 1023.98px){
+			grid-template-columns: 80px auto;
+			grid-template-rows: 61px;
+		}
+		.navbar-brand{
+			display: block;
+			line-height: 1;
+		}
+		.navbar-toggler{
+			align-self: center;
+			display: none;
+			grid-column-start: 4;
+			height: 40px;
+			justify-self: end;
+			width: 40px;
+			@media (max-width: 1023.98px){
+				display: block;
+			}
+		}
+		.navbar-collapse{
+			align-items: center;
+			display: grid;
+			grid-template-columns: auto;
+			@media (max-width: 1023.98px){
+				display: none;
+			}
+			.navbar-nav{
+				align-items: center;
+				display: grid;
+				grid-column-gap: 30px;
+				grid-template-columns: repeat(5, auto);
+				justify-self: end;
+				list-style: outside none;
+				margin: 0;
+				padding: 0;
+				.nav-item{
+					.nav-link{
+						color: white;
+						font-size: 16px;
+						@include font-Orbitron-Light;
+						line-height: 1.25;
+						text-transform: uppercase;
+						transition: all 0.3s ease-in-out 0s;
+						&.click-here-button{
+							align-items: center;
+							background-attachment: scroll;
+							background-color: transparent;
+							background-image: url(../images/header/click-here-bg-black.png);
+							background-position: center center;
+							background-repeat: no-repeat;
+							background-size: 216px 56px;
+							color: white;
+							display: flex;
+							font-size: 24px;
+							@include font-LoRes-12-OT-Regular;
+							height: 56px;
+							justify-content: center;
+							transition: all 0.3s ease-in-out 0s;
+							width: 216px;
+						}
+						&:hover,
+						&:focus{
+							color: #009CEA;
+							text-decoration: none;
+							&.click-here-button{
+								background-image: url(../images/header/click-here-bg-white.png);
+								color: black;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.after-scroll{
+		box-shadow: 0 10px 10px -10px rgba(white, 0.5);
+	}
+}

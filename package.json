@@ -1,0 +1,39 @@
+{
+	"name": "dgphome",
+	"version": "1.0.0",
+	"description": "AI to HTML. Must use Grid Layout",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/carbonWinter/dgphome.git"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.3.4",
+		"gulp": "^4.0.2",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sass": "^5.0.0",
+		"jquery": "^3.6.0",
+		"normalize.css": "^8.0.1",
+		"postcss": "^8.3.6",
+		"sass": "^1.41.1"
+	},
+	"browserslist": [
+		"last 90 version"
+	],
+	"keywords": [
+		"HTML5",
+		"CSS3",
+		"AI",
+		"Grid",
+		"Gulp"
+	],
+	"author": "Rahul Moral",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/carbonWinter/dgphome/issues"
+	},
+	"homepage": "https://github.com/carbonWinter/dgphome#readme"
+}
