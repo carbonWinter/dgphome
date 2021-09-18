@@ -1,6 +1,9 @@
 .main-menu{
 	background-color: black;
 	transition: all 0.3s ease-in-out 0s;
+	.container{
+		position: static;
+	}
 	.navbar{
 		display: grid;
 		grid-column-gap: 16px;
@@ -17,7 +20,13 @@
 		}
 		.navbar-toggler{
 			align-self: center;
+			background: linear-gradient(135deg, #d9e021 0%,#22b573 27%,#009dff 52%,#ed1e79 100%);
+			//background: radial-gradient(ellipse at center, #d9e021 0%,#22b573 27%,#009dff 52%,#ed1e79 100%);
+			border: none;
+			color: white;
+			cursor: pointer;
 			display: none;
+			font-size: 24px;
 			grid-column-start: 4;
 			height: 40px;
 			justify-self: end;
@@ -67,6 +76,13 @@
 							transition: all 0.3s ease-in-out 0s;
 							width: 216px;
 						}
+						span{
+							display: inline-block;
+							vertical-align: top;
+							&:not(:last-child){
+								margin-right: 6px;
+							}
+						}
 						&:hover,
 						&:focus{
 							color: #009CEA;
@@ -77,11 +93,191 @@
 							}
 						}
 					}
+					.mega-menu{
+						background-color: white;
+						box-shadow: 0 8px 8px -8px rgba(black, 0.2);
+						display: block;
+						left: 0;
+						opacity: 0;
+						padding: 30px;
+						position: absolute;
+						top: 100%;
+						transition: all 0.3s ease-in-out 0s;
+						visibility: hidden;
+						width: 100%;
+						z-index: 1000;
+						.mega-menu-wrapper{
+							display: grid;
+							grid-auto-flow: column;
+							grid-column-gap: 40px;
+							grid-template-columns: min-content auto;
+							justify-content: end;
+							.mega-menu-item{
+								h4{
+									color: black;
+									font-size: 22px;
+									@include font-Orbitron-Black;
+									letter-spacing: 1.8px;
+									line-height: 1.25;
+									margin-bottom: 20px;
+									text-transform: uppercase;
+									white-space: nowrap;
+									@media (max-width: 1199.98px){
+										font-size: 20px;
+									}
+								}
+								.mega-menu-items{
+									display: flex;
+									flex-direction: column;
+									justify-content: flex-start;
+									.mega-menu-item-link{
+										color: black;
+										font-size: 18px;
+										@include font-Orbitron-Light;
+										letter-spacing: 1px;
+										line-height: 1.5;
+										transition: all 0.3s ease-in-out 0s;
+										@media (max-width: 1199.98px){
+											font-size: 16px;
+										}
+										&:not(:last-child){
+											margin-bottom: 10px;
+										}
+										&:hover,
+										&:focus{
+											color: #009CEA;
+											text-decoration: none;
+										}
+									}
+								}
+							}
+						}
+					}
+					&:hover,
+					&:focus{
+						.mega-menu{
+							opacity: 1;
+							visibility: visible;
+						}
+					}
 				}
 			}
 		}
 	}
 	&.after-scroll{
 		box-shadow: 0 10px 10px -10px rgba(white, 0.5);
+	}
+}
+// Mobile menu
+.mobile-menu{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	transform: translateX(100%);
+	transition: all 0.3s ease-in-out 0s;
+	width: 100%;
+	z-index: 9999;
+	.mobile-menu-header{
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 15px;
+		.mobile-menu-header-brand{
+			max-width: 75px;
+		}
+		.mobile-menu-close{
+			background: linear-gradient(135deg, #d9e021 0%,#22b573 27%,#009dff 52%,#ed1e79 100%);
+			border: none;
+			color: white;
+			cursor: pointer;
+			font-size: 24px;
+			height: 40px;
+			width: 40px;
+		}
+	}
+	.mobile-menu-body{
+		background-color: white;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		.mobile-menus{
+			display: grid;
+			grid-template-columns: 1fr;
+			padding: 20px 15px;
+			.mobile-menu-item{
+				&:not(:last-child){
+					margin-bottom: 15px;
+				}
+				.mobile-menu-link{
+					color: black;
+					font-size: 16px;
+					@include font-Orbitron-Light;
+					display: block;
+					text-transform: uppercase;
+					transition: all 0.3s ease-in-out 0s;
+					&:hover,
+					&:focus{
+						color: #009CEA;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.mobile-menu-footer{
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-top: auto;
+		padding: 20px 15px;
+		.mobile-menu-footer-link{
+			color: white;
+			font-size: 16px;
+			@include font-Orbitron-Light;
+			letter-spacing: 1.5px;
+			line-height: 1;
+			transition: all 0.3s ease-in-out 0s;
+			&:not(:last-child){
+				margin-bottom: 20px;
+			}
+			&.click-here{
+				align-items: center;
+				background-attachment: scroll;
+				background-color: transparent;
+				background-image: url(../images/header/click-here-bg-black.png);
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: 216px 56px;
+				color: white;
+				display: flex;
+				font-size: 24px;
+				@include font-LoRes-12-OT-Regular;
+				height: 56px;
+				justify-content: center;
+				transition: all 0.3s ease-in-out 0s;
+				width: 216px;
+			}
+			&:hover,
+			&:focus{
+				color: #009CEA;
+				text-decoration: none;
+				&.click-here{
+					background-image: url(../images/header/click-here-bg-white.png);
+					color: black;
+				}
+			}
+		}
+	}
+}
+body{
+	&.mobile-menu-open{
+		overflow: hidden;
+		.mobile-menu{
+			transform: translateX(0);
+		}
 	}
 }

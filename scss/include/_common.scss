@@ -87,4 +87,8 @@ body{
 	padding: 0;
 	position: fixed;
 	right: 70px;
+	@media (max-width: 1199.98px) {
+		bottom: 40px;
+		right: 40px;
+	}
 }
