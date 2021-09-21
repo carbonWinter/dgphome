@@ -1,0 +1,388 @@
+.dmppc-banner{
+	background-color: black;
+	.dmppc-banner-wrapper{
+		display: grid;
+		grid-template-columns: 1 / 1;
+		grid-template-rows: 1 / 1;
+		padding: 100px 0;
+		@media (min-height: 768px){
+			min-height: 400px;
+		}
+		span{
+			align-self: center;
+			display: inline-grid;
+			justify-self: center;
+		}
+	}
+}
+.dmppc-expert-dppc{
+	background-color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dmppc-expert-dppc-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 50px;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dmppc-expert-dppc-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1130px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+}
+.dmppc-google-marketing{
+	background-attachment: scroll;
+	background-color: black;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 223px 227px;
+	padding-bottom: 200px;
+	padding-top: 200px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+	@media (max-width: 767.98px){
+		background-image: none !important;
+	}
+	.dmppc-google-marketing-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 900px;
+		width: 100%;
+		@media (min-width: 768px) and (max-width: 1364.98px){
+			max-width: 100%;
+			padding-left: 215px;
+		}
+		h2{
+			color: white;
+			display: inline-block;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			color: white;
+			font-size: 30px;
+			@include font-SFPro-Light;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+		}
+	}
+}
+.dmppc-dentistry{
+	background-color: white;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	//@media (max-width: 1364.98px){
+	//	padding-bottom: 90px;
+	//	padding-top: 90px;
+	//}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dmppc-dentistry-wrapper{
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 50px;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dmppc-dentistry-item-group{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-row-gap: 100px;
+			@media (max-width: 1364.98px){
+				grid-row-gap: 60px;
+			}
+			@media (max-width: 1199.98px){
+				grid-row-gap: 30px;
+			}
+			.dmppc-dentistry-item{
+				display: grid;
+				grid-template-columns: repeat(2, 50%);
+				grid-column-gap: 50px;
+				@media (max-width: 1364.98px){
+					grid-column-gap: 30px;
+				}
+				//@media (max-width: 1199.98px){
+				//	grid-row-gap: 30px;
+				//}
+				@media (max-width: 1023.98px){
+					grid-column-gap: 0;
+					grid-template-columns: 1fr;
+				}
+				.dmppc-dentistry-item-text{
+					@media (max-width: 1023.98px){
+						margin-bottom: 30px;
+					}
+					h3{
+						color: black;
+						font-size: 40px;
+						@include font-Orbitron-Black;
+						line-height: 1.25;
+						margin-bottom: 30px;
+						text-transform: uppercase;
+					}
+					p{
+						margin-bottom: 0;
+					}
+				}
+				.dmppc-dentistry-item-image{
+					display: grid;
+					grid-template-columns: 1fr;
+					grid-template-rows: 1fr;
+					@media (max-width: 1023.98px){
+						margin-bottom: 30px;
+					}
+					span{
+						align-self: center;
+						display: inline-grid;
+						justify-self: center;
+					}
+				}
+				&:nth-child(2n+1){
+					.dmppc-dentistry-item-text{
+						h3{
+							@media (min-width: 1024px){
+								text-align: right;
+							}
+						}
+					}
+				}
+				&:nth-child(2n+2){
+					.dmppc-dentistry-item-image{
+						@media (min-width: 1024px){
+							grid-column-start: 1;
+							grid-row-start: 1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.dmppc-right-way{
+	background-color: white;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	@media (max-width: 1364.98px) {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dmppc-right-way-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1400px;
+		width: 100%;
+		.dmppc-right-way-heading{
+			margin-bottom: 80px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1100px;
+			@media (max-width: 1364.98px) {
+				margin-bottom: 50px;
+			}
+			@media (max-width: 1199.98px) {
+				margin-bottom: 30px;
+			}
+			h2{
+				color: black;
+				display: inline-block;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-align: center;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 1.5;
+				margin-bottom: 0;
+				text-align: justify;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.dmppc-right-way-items{
+			.dmppc-right-way-items-text{
+				column-count: 2;
+				column-gap: 60px;
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Regular;
+				line-height: 1.5;
+				margin-bottom: 0;
+				text-align: justify;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+					column-gap: 30px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+				@media (max-width: 767.98px){
+					column-count: 1;
+					column-gap: 0;
+				}
+				a{
+					color: #009CEA;
+				}
+			}
+		}
+	}
+}
+.dmppc-traffic{
+	background-attachment: scroll;
+	background-color: black;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 1800px 523px;
+	padding-bottom: 230px;
+	padding-top: 175px;
+	@media (max-width: 1023.98px) {
+		background-image: none !important;
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+	.dmppc-traffic-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1100px;
+		width: 100%;
+		h2{
+			color: white;
+			display: inline-block;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			color: white;
+			font-size: 30px;
+			@include font-SFPro-Light;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+		}
+	}
+}
