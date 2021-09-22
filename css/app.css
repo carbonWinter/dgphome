@@ -1069,6 +1069,59 @@ body {
   text-decoration: none;
 }
 
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper h5 {
+  color: black;
+  font-size: 14px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper .mobile-sub-menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper .mobile-sub-menu .mobile-sub-menu-link {
+  color: black;
+  font-size: 14px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper .mobile-sub-menu .mobile-sub-menu-link:hover, .mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item .mobile-sub-menu-wrapper .mobile-sub-menu .mobile-sub-menu-link:focus {
+  color: #009CEA;
+  text-decoration: none;
+}
+
+.mobile-menu .mobile-menu-body .mobile-menus .mobile-menu-item.sub-menu-active .mobile-sub-menu-wrapper {
+  height: auto;
+  padding: 20px 0 0;
+}
+
 .mobile-menu .mobile-menu-footer {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1138,6 +1191,7 @@ body {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -2188,22 +2242,49 @@ body.mobile-menu-open .mobile-menu {
 
 .dmppc-banner .dmppc-banner-wrapper {
   display: grid;
-  grid-template-columns: 1/1;
-  grid-template-rows: 1/1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   padding: 100px 0;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
   .dmppc-banner .dmppc-banner-wrapper {
     min-height: 400px;
   }
 }
-.dmppc-banner .dmppc-banner-wrapper span {
+.dmppc-banner .dmppc-banner-wrapper .dmppc-banner-center {
   align-self: center;
   display: inline-grid;
   justify-self: center;
 }
 
+.dmppc-banner .dmppc-banner-wrapper .dmppc-banner-center .dmppc-banner-content {
+  display: grid;
+  grid-template-columns: 136px 1fr;
+  grid-column-gap: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .dmppc-banner .dmppc-banner-wrapper .dmppc-banner-center .dmppc-banner-content {
+    grid-template-columns: 70px 1fr;
+  }
+}
+.dmppc-banner .dmppc-banner-wrapper .dmppc-banner-center .dmppc-banner-content span {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  color: white;
+  font-size: 60px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+  .dmppc-banner .dmppc-banner-wrapper .dmppc-banner-center .dmppc-banner-content span {
+    font-size: 30px;
+  }
+}
 .dmppc-expert-dppc {
   background-color: white;
   padding-bottom: 180px;
@@ -2469,6 +2550,16 @@ body.mobile-menu-open .mobile-menu {
   text-transform: uppercase;
 }
 
+@media (max-width: 767.98px) {
+  .dmppc-dentistry .dmppc-dentistry-wrapper .dmppc-dentistry-item-group .dmppc-dentistry-item .dmppc-dentistry-item-text h3 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .dmppc-dentistry .dmppc-dentistry-wrapper .dmppc-dentistry-item-group .dmppc-dentistry-item .dmppc-dentistry-item-text h3 {
+    font-size: 30px;
+  }
+}
 .dmppc-dentistry .dmppc-dentistry-wrapper .dmppc-dentistry-item-group .dmppc-dentistry-item .dmppc-dentistry-item-text p {
   margin-bottom: 0;
 }

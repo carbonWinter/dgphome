@@ -55,7 +55,41 @@
 					</div>
 					<!-- Each item -->
 					<div class="mobile-menu-item">
-						<a class="mobile-menu-link" href="javascript:void(0);">Services</a>
+						<a class="mobile-menu-link mobile-menu-link-toggle" href="javascript:void(0);">Services</a>
+						<div class="mobile-sub-menu-wrapper">
+							<h5>Human resources</h5>
+							<div class="mobile-sub-menu">
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">24/7 Call Center Support</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Patient Recall</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Virtual Front Office</a>
+							</div>
+							<h5>Marketing</h5>
+							<div class="mobile-sub-menu">
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Dental Marketing</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Facebook Marketing</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Search Engine Optimization</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Postcards & Mailers</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Magazines & Print</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Radio Ads</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">TV Commercials</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Online Marketing</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">D.S.O. Marketing</a>
+							</div>
+							<h5>Brand & Identity</h5>
+							<div class="mobile-sub-menu">
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Online Reviews</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Social Media Posting</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Logo Design</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Business Signage</a>
+							</div>
+							<h5>Media</h5>
+							<div class="mobile-sub-menu">
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Dental Websites</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Dental Videos</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">Pod Casts</a>
+								<a class="mobile-sub-menu-link" href="javascript:void(0);">News Letters</a>
+							</div>
+						</div>
 					</div>
 					<!-- Each item -->
 					<div class="mobile-menu-item">
@@ -103,7 +137,62 @@
 										</li>
 										<!-- Each item -->
 										<li class="nav-item">
-											<a href="javascript:void(0);" class="nav-link">services</a>
+											<a href="javascript:void(0);" class="nav-link">
+												<span>services</span>
+												<span>
+													<img alt="down icon" class="img-responsive" src="images/header/arrow-down-icon.png" />
+												</span>
+											</a>
+											<div class="mega-menu">
+												<div class="container">
+													<div class="mega-menu-wrapper">
+														<div class="mega-menu-item">
+															<h4>Human resources</h4>
+															<div class="mega-menu-items">
+																<a class="mega-menu-item-link" href="javascript:void(0);">24/7 Call Center Support</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Patient Recall</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Virtual Front Office</a>
+															</div>
+														</div>
+														<!-- Each item -->
+														<div class="mega-menu-item">
+															<h4>Marketing</h4>
+															<div class="mega-menu-items">
+																<a class="mega-menu-item-link" href="javascript:void(0);">Dental Marketing</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Facebook Marketing</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Search Engine Optimization</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Postcards & Mailers</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Magazines & Print</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Radio Ads</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">TV Commercials</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Online Marketing</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">D.S.O. Marketing</a>
+															</div>
+														</div>
+														<!-- Each item -->
+														<div class="mega-menu-item">
+															<h4>Brand & Identity</h4>
+															<div class="mega-menu-items">
+																<a class="mega-menu-item-link" href="javascript:void(0);">Online Reviews</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Social Media Posting</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Logo Design</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Business Signage</a>
+															</div>
+														</div>
+														<!-- Each item -->
+														<div class="mega-menu-item">
+															<h4>Media</h4>
+															<div class="mega-menu-items">
+																<a class="mega-menu-item-link" href="javascript:void(0);">Dental Websites</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Dental Videos</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">Pod Casts</a>
+																<a class="mega-menu-item-link" href="javascript:void(0);">News Letters</a>
+															</div>
+														</div>
+														<!-- Each item -->
+													</div>
+												</div>
+											</div>
 										</li>
 										<!-- Each item -->
 										<li class="nav-item">
@@ -204,7 +293,21 @@
                 e.preventDefault();
                 e.stopPropagation();
                 $('body').removeClass('mobile-menu-open');
-            })
+            });
+            $('.mobile-menu-link-toggle').on('click', function(e){
+                e.preventDefault();
+                var $this = $(this);
+                //$('.mobile-menu-item').removeClass('sub-menu-active');
+                if ($this.hasClass('show')) {
+                    $this.removeClass('show');
+                    $this.parents('.mobile-menu-item').removeClass('sub-menu-active');
+                } else {
+                    $('.mobile-menu-link-toggle').removeClass('show');
+                    $('.mobile-menu-item').removeClass('sub-menu-active');
+                    $this.addClass('show');
+                    $this.parents('.mobile-menu-item').addClass('sub-menu-active');
+                }
+            });
 		</script>
 	</body>
 </html>

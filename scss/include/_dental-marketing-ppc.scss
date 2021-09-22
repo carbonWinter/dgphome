@@ -2,17 +2,40 @@
 	background-color: black;
 	.dmppc-banner-wrapper{
 		display: grid;
-		grid-template-columns: 1 / 1;
-		grid-template-rows: 1 / 1;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
 		padding: 100px 0;
-		@media (min-height: 768px){
+		@media (min-width: 768px){
 			min-height: 400px;
 		}
-		span{
+		.dmppc-banner-center{
 			align-self: center;
 			display: inline-grid;
 			justify-self: center;
+			.dmppc-banner-content{
+				display: grid;
+				grid-template-columns: 136px 1fr;
+				grid-column-gap: 15px;
+				@media (max-width: 575.98px){
+					grid-template-columns: 70px 1fr;
+				}
+				span{
+					align-self: center;
+					color: white;
+					font-size: 60px;
+					@include font-LoRes-12-OT-Regular;
+					text-transform: uppercase;
+					@media (max-width: 575.98px){
+						font-size: 30px;
+					}
+				}
+			}
 		}
+		//span{
+		//	align-self: center;
+		//	display: inline-grid;
+		//	justify-self: center;
+		//}
 	}
 }
 .dmppc-expert-dppc{
@@ -209,6 +232,12 @@
 						line-height: 1.25;
 						margin-bottom: 30px;
 						text-transform: uppercase;
+						@media (max-width: 767.98px){
+							font-size: 36px;
+						}
+						@media (max-width: 575.98px){
+							font-size: 30px;
+						}
 					}
 					p{
 						margin-bottom: 0;
