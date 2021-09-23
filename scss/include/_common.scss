@@ -81,6 +81,9 @@ body{
 .mb-100{
 	margin-bottom: 100px !important;
 }
+.pb-0{
+	padding-bottom: 0 !important;
+}
 // Scroll to top button
 .scroll-top-top-button{
 	background-color: black;
@@ -221,6 +224,82 @@ body{
 		grid-row-gap: 30px;
 		.accordion-item{
 			margin-bottom: 0;
+		}
+	}
+}
+// Inner banner
+.inner-banner{
+	background-color: black;
+	.inner-banner-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		padding: 100px 0;
+		@media (min-width: 768px){
+			min-height: 400px;
+		}
+		.inner-banner-center{
+			align-self: center;
+			display: inline-grid;
+			justify-self: center;
+			.inner-banner-content{
+				display: grid;
+				//grid-template-columns: 136px 1fr;
+				//grid-template-columns: minmax(auto, 1fr);
+				grid-template-columns: auto 1fr;
+				grid-column-gap: 15px;
+				margin-bottom: 0;
+				//@media (max-width: 575.98px){
+				//	grid-template-columns: 70px 1fr;
+				//}
+				span{
+					align-self: center;
+					color: white;
+					font-size: 60px;
+					@include font-LoRes-12-OT-Regular;
+					text-transform: uppercase;
+					@media (max-width: 575.98px){
+						font-size: 30px;
+					}
+				}
+			}
+		}
+		//span{
+		//	align-self: center;
+		//	display: inline-grid;
+		//	justify-self: center;
+		//}
+	}
+}
+// Game box
+.game-gose-box-removal{
+	background-color: #001821;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-bottom: 56.25%;
+	position: relative;
+	@media (max-width: 1199.98px){
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	span{
+		align-self: center;
+		display: inline-grid;
+		color: #324E54;
+		font-size: 50px;
+		@include font-LoRes-12-OT-Regular;
+		justify-self: center;
+		left: 50%;
+		position: absolute;
+		text-transform: uppercase;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		white-space: nowrap;
+		@media (max-width: 767.98px){
+			font-size: 36px;
 		}
 	}
 }
