@@ -502,5 +502,22 @@
                 }
             });
 		</script>
+		<script>
+			$('.accordion-item-toggle').click(function(e) {
+				e.preventDefault();
+
+				var $this = $(this);
+
+				if ($this.hasClass('show')) {
+					$this.removeClass('show');
+					$this.next('.accordion-item-inner').removeClass('show');
+				} else {
+					$('.accordion-item-toggle').removeClass('show');
+					$('.accordion-item-inner').removeClass('show');
+					$this.addClass('show');
+					$this.next('.accordion-item-inner').addClass('show');
+				}
+			});
+		</script>
 	</body>
 </html>
