@@ -796,6 +796,14 @@ body {
   padding-bottom: 0 !important;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
 .scroll-top-top-button {
   background-color: black;
   -webkit-border-radius: 50%;
@@ -4221,4 +4229,992 @@ body.mobile-menu-open .mobile-menu {
 
 .stage-padding-carousel .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #009cea;
+}
+
+.dental-radio-ads-spread {
+  background-color: white;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-ads-spread {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-radio-ads-spread {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper p a {
+  color: #009CEA;
+}
+
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading h2 {
+    font-size: 30px;
+  }
+}
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-heading p {
+    font-size: 16px;
+  }
+}
+.dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-audio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1250px;
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .dental-radio-ads-spread .dental-radio-ads-spread-wrapper .dental-radio-ads-spread-audio-group {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+  }
+}
+.dental-radio-pros-cons {
+  background-color: black;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-pros-cons {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-radio-pros-cons {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-radio-pros-cons .dental-radio-pros-cons-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1180px;
+  width: 100%;
+}
+
+.dental-radio-pros-cons .dental-radio-pros-cons-wrapper h2 {
+  color: white;
+  display: inline-block;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-pros-cons .dental-radio-pros-cons-wrapper h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-pros-cons .dental-radio-pros-cons-wrapper h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-radio-pros-cons .dental-radio-pros-cons-wrapper h2 {
+    font-size: 30px;
+  }
+}
+.dental-radio-pros-cons .dental-radio-pros-cons-wrapper p {
+  color: white;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: justify;
+  max-width: 1020px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-pros-cons .dental-radio-pros-cons-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-pros-cons .dental-radio-pros-cons-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-radio-features {
+  background-color: white;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+@media (max-width: 1199.98px) {
+  .dental-radio-features {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-radio-features p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-features p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-features p {
+    font-size: 16px;
+  }
+}
+.dental-radio-features .dental-radio-features-group {
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+@media (max-width: 1199.98px) {
+  .dental-radio-features .dental-radio-features-group {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+  justify-self: center;
+  list-style: outside none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item {
+  display: grid;
+  grid-template-columns: 105px 1fr;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .icon {
+  padding-right: 24px;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .icon img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-text {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  font-size: 50px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-note {
+  color: black;
+  display: block;
+  font-size: 30px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.dental-radio-feature {
+  padding-bottom: 60px;
+  padding-top: 165px;
+}
+
+.dental-radio-feature .dental-radio-feature-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading {
+  margin-bottom: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 935px;
+  width: 100%;
+}
+
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  letter-spacing: 6px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading h2 {
+    font-size: 30px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-heading p {
+    font-size: 16px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 100px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group {
+    grid-row-gap: 60px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group {
+    grid-row-gap: 30px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item {
+    grid-template-columns: 1fr -webkit-calc(40% - 30px);
+    grid-template-columns: 1fr -moz-calc(40% - 30px);
+    grid-template-columns: 1fr calc(40% - 30px);
+    grid-column-gap: 30px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item {
+    grid-column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text {
+    margin-bottom: 30px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text h3 {
+  color: black;
+  font-size: 40px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text h3 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text h3 {
+    font-size: 30px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text p {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text p {
+    font-size: 16px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-text p a {
+  color: #009CEA;
+}
+
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-image {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media (max-width: 1023.98px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-image {
+    margin-bottom: 30px;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item .dental-radio-feature-item-image span {
+  align-self: center;
+  display: inline-grid;
+  justify-self: center;
+}
+
+@media (min-width: 1024px) {
+  .dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-item-group .dental-radio-feature-item:nth-child(2n+2) .dental-radio-feature-item-image {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+}
+.dental-radio-feature .dental-radio-feature-wrapper .dental-radio-feature-apple-icon img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.dental-internet-radio {
+  background-color: white;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-internet-radio {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-internet-radio {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-internet-radio .dental-internet-radio-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.dental-internet-radio .dental-internet-radio-wrapper p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-internet-radio .dental-internet-radio-wrapper p a {
+  color: #009CEA;
+}
+
+.dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header h2 {
+    font-size: 30px;
+  }
+}
+.dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-internet-radio .dental-internet-radio-wrapper .dental-internet-radio-header p {
+    font-size: 16px;
+  }
+}
+.dental-radio-podcasts {
+  background-color: black;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-podcasts {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-radio-podcasts {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-radio-podcasts .dental-radio-podcasts-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1060px;
+}
+
+.dental-radio-podcasts .dental-radio-podcasts-wrapper h2 {
+  color: white;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-podcasts .dental-radio-podcasts-wrapper h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-podcasts .dental-radio-podcasts-wrapper h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-radio-podcasts .dental-radio-podcasts-wrapper h2 {
+    font-size: 30px;
+  }
+}
+.dental-radio-podcasts .dental-radio-podcasts-wrapper p {
+  color: white;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-radio-podcasts .dental-radio-podcasts-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-radio-podcasts .dental-radio-podcasts-wrapper p {
+    font-size: 16px;
+  }
+}
+.dom-text-content {
+  background-color: white;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-text-content {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dom-text-content {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dom-text-content .dom-text-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.dom-text-content .dom-text-content-wrapper p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-text-content .dom-text-content-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dom-text-content .dom-text-content-wrapper p {
+    font-size: 16px;
+  }
+}
+.dom-text-content .dom-text-content-wrapper p a {
+  color: #009CEA;
+}
+
+.dom-text-content .dom-text-content-wrapper .dom-text-content-heading {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.dom-text-content .dom-text-content-wrapper .dom-text-content-heading h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-text-content .dom-text-content-wrapper .dom-text-content-heading h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dom-text-content .dom-text-content-wrapper .dom-text-content-heading h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dom-text-content .dom-text-content-wrapper .dom-text-content-heading h2 {
+    font-size: 30px;
+  }
+}
+.dom-text-content .dom-text-content-wrapper .dom-text-content-heading p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-text-content .dom-text-content-wrapper .dom-text-content-heading p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dom-text-content .dom-text-content-wrapper .dom-text-content-heading p {
+    font-size: 16px;
+  }
+}
+.dom-social-media-content {
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 130px;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-social-media-content {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dom-social-media-content {
+    padding-top: 60px;
+  }
+}
+.dom-social-media-content .dom-text-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.dom-social-media-content .dom-text-content-wrapper p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dom-social-media-content .dom-text-content-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dom-social-media-content .dom-text-content-wrapper p {
+    font-size: 16px;
+  }
+}
+.dom-social-media-content .dom-text-content-wrapper p a {
+  color: #009CEA;
+}
+
+.dom-social-media-content .dom-text-content-wrapper .dom-text-content-apple-icon {
+  margin-top: 60px;
+}
+
+.dom-social-media-content .dom-text-content-wrapper .dom-text-content-apple-icon img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dental-tv-ads {
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.dental-tv-ads .dental-tv-ads-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-group {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 25px;
+  }
+}
+.dental-tv-ads .dental-tv-ads-wrapper p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-tv-ads .dental-tv-ads-wrapper p a {
+  color: #009CEA;
+}
+
+.dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1075px;
+  width: 100%;
+}
+
+.dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading h2 {
+    font-size: 30px;
+  }
+}
+.dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading p {
+    font-size: 16px;
+  }
+}
+.dental-secret-commercial-success {
+  background-color: black;
+  padding-bottom: 180px;
+  padding-top: 180px;
+  position: relative;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-secret-commercial-success {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-secret-commercial-success {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-secret-commercial-success .dental-secret-commercial-success-image {
+  left: 120px;
+  position: absolute;
+  top: -30px;
+}
+
+@media (max-width: 1199.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-image {
+    display: none !important;
+  }
+}
+.dental-secret-commercial-success .dental-secret-commercial-success-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1290px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.dental-secret-commercial-success .dental-secret-commercial-success-wrapper h2 {
+  color: white;
+  display: inline-block;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-wrapper h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-wrapper h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-wrapper h2 {
+    font-size: 30px;
+  }
+}
+.dental-secret-commercial-success .dental-secret-commercial-success-wrapper p {
+  color: white;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: justify;
+  max-width: 1020px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-secret-commercial-success .dental-secret-commercial-success-wrapper p {
+    font-size: 16px;
+  }
 }

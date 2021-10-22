@@ -1,0 +1,138 @@
+.dental-tv-ads{
+	background-color: white;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	.dental-tv-ads-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		.dental-tv-ads-group{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 25px;
+			margin-bottom: 60px;
+			width: 100%;
+			@media (max-width: 767.98px){
+				grid-template-columns: 1fr;
+				grid-column-gap: 0;
+				grid-row-gap: 25px;
+			}
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 50px;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-tv-ads-heading{
+			//margin-bottom: 60px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1075px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				text-align: center;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.dental-secret-commercial-success{
+	background-color: black;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	position: relative;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-secret-commercial-success-image{
+		left: 120px;
+		position: absolute;
+		top: -30px;
+		@media (max-width: 1199.98px){
+			display: none !important;
+		}
+	}
+	.dental-secret-commercial-success-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1290px;
+		position: relative;
+		width: 100%;
+		z-index: 1;
+		h2{
+			color: white;
+			display: inline-block;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			color: white;
+			font-size: 30px;
+			@include font-SFPro-Light;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			max-width: 1020px;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+		}
+	}
+}
