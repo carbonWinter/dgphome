@@ -770,6 +770,10 @@ body {
   margin-right: -15px;
 }
 
+.w-100 {
+  width: 100% !important;
+}
+
 .fixed-top {
   left: 0;
   position: fixed;
@@ -5215,6 +5219,261 @@ body.mobile-menu-open .mobile-menu {
 }
 @media (max-width: 1023.98px) {
   .dental-secret-commercial-success .dental-secret-commercial-success-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-online-reviews {
+  background-color: black;
+  padding-bottom: 250px;
+  padding-top: 250px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-online-reviews {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-online-reviews {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-online-reviews h2 {
+  color: white;
+  display: inline-block;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-online-reviews h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-online-reviews h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-online-reviews h2 {
+    font-size: 30px;
+  }
+}
+.dental-online-reviews p {
+  color: white;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  max-width: 1020px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-online-reviews p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-online-reviews p {
+    font-size: 16px;
+  }
+}
+.dental-review-reputation {
+  background-color: white;
+  padding-bottom: 100px;
+  padding-top: 150px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-review-reputation {
+    padding-bottom: 40px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-review-reputation {
+    padding-bottom: 10px;
+    padding-top: 60px;
+  }
+}
+.dental-review-reputation img {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-review-reputation img {
+    margin-bottom: 60px;
+  }
+}
+.dental-review-reputation .dental-review-reputation-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dental-review-reputation .dental-review-reputation-wrapper p {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper p {
+    font-size: 16px;
+  }
+}
+.dental-review-reputation .dental-review-reputation-wrapper p a {
+  color: #009CEA;
+}
+
+.dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading {
+  margin-bottom: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 935px;
+  width: 100%;
+}
+
+.dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  letter-spacing: 6px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading h2 {
+    font-size: 30px;
+  }
+}
+.dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading p {
+  color: black;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-review-reputation .dental-review-reputation-wrapper .dental-review-reputation-heading p {
+    font-size: 16px;
+  }
+}
+.dental-bad-reviews {
+  background-color: black;
+  padding-bottom: 140px;
+  padding-top: 140px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-bad-reviews {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .dental-bad-reviews {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.dental-bad-reviews .dental-bad-reviews-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1260px;
+}
+
+.dental-bad-reviews h2 {
+  color: white;
+  display: inline-block;
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-bad-reviews h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-bad-reviews h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dental-bad-reviews h2 {
+    font-size: 30px;
+  }
+}
+.dental-bad-reviews p {
+  color: white;
+  font-size: 30px;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+@media (max-width: 1364.98px) {
+  .dental-bad-reviews p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .dental-bad-reviews p {
     font-size: 16px;
   }
 }
