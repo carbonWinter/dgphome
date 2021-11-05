@@ -1,0 +1,493 @@
+.dental-radio-ads-spread{
+	background-color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-radio-ads-spread-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 50px;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-radio-ads-spread-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1300px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.dental-radio-ads-spread-audio-group{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 25px;
+			grid-row-gap: 25px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1250px;
+			width: 100%;
+			@media (max-width: 767.98px){
+				grid-template-columns: 1fr;
+				grid-column-gap: 0;
+			}
+		}
+	}
+}
+.dental-radio-pros-cons{
+	background-color: black;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-radio-pros-cons-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1180px;
+		width: 100%;
+		h2{
+			color: white;
+			display: inline-block;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			color: white;
+			font-size: 30px;
+			@include font-SFPro-Light;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			max-width: 1020px;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+		}
+	}
+}
+.dental-radio-features{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	p{
+		color: black;
+		font-size: 30px;
+		@include font-SFPro-Regular;
+		line-height: 1.5;
+		margin-bottom: 0;
+		text-align: justify;
+		@media (max-width: 1364.98px){
+			font-size: 24px;
+		}
+		@media (max-width: 1023.98px){
+			font-size: 16px;
+		}
+	}
+	.dental-radio-features-group{
+		display: grid;
+		justify-content: center;
+		padding-bottom: 120px;
+		padding-top: 120px;
+		@media (max-width: 1199.98px){
+			padding-bottom: 60px;
+			padding-top: 60px;
+		}
+		.dental-radio-features-list{
+			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-row-gap: 40px;
+			justify-self: center;
+			list-style: outside none;
+			margin-bottom: 0;
+			padding: 0;
+			.dental-radio-features-list-item{
+				display: grid;
+				grid-template-columns: 105px 1fr;
+				.icon{
+					padding-right: 24px;
+					img{
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+				.text-content{
+					.dental-radio-features-list-item-text{
+						background-color: black;
+						color: white;
+						display: inline-block;
+						font-size: 50px;
+						@include font-LoRes-12-OT-Regular;
+						line-height: 1.25;
+						padding: 10px 40px;
+						text-transform: uppercase;
+					}
+					.dental-radio-features-list-item-note{
+						color: black;
+						display: block;
+						font-size: 30px;
+						@include font-LoRes-12-OT-Regular;
+						line-height: 1.5;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}
+.dental-radio-feature{
+	padding-bottom: 60px;
+	padding-top: 165px;
+	.dental-radio-feature-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		.dental-radio-feature-heading{
+			margin-bottom: 45px;
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 935px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size : 60px;
+				@include font-Orbitron-Black;
+				letter-spacing : 6px;
+				line-height : 1.5;
+				margin-bottom: 30px;
+				text-align: center;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 1.5;
+				margin-bottom: 0;
+				text-align: center;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.dental-radio-feature-item-group{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-row-gap: 100px;
+			@media (max-width: 1364.98px){
+				grid-row-gap: 60px;
+			}
+			@media (max-width: 1199.98px){
+				grid-row-gap: 30px;
+			}
+			.dental-radio-feature-item{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-column-gap: 50px;
+				@media (max-width: 1364.98px){
+					grid-template-columns: 1fr calc(40% - 30px);
+					grid-column-gap: 30px;
+				}
+				//@media (max-width: 1199.98px){
+				//	grid-row-gap: 30px;
+				//}
+				@media (max-width: 1023.98px){
+					grid-column-gap: 0;
+					grid-template-columns: 1fr;
+				}
+				.dental-radio-feature-item-text{
+					display: grid;
+					grid-template-columns: 1fr;
+					grid-template-rows: 1fr;
+					@media (max-width: 1023.98px){
+						margin-bottom: 30px;
+					}
+					h3{
+						color: black;
+						font-size: 40px;
+						@include font-Orbitron-Black;
+						line-height: 1.25;
+						margin-bottom: 30px;
+						text-transform: uppercase;
+						@media (max-width: 767.98px){
+							font-size: 36px;
+						}
+						@media (max-width: 575.98px){
+							font-size: 30px;
+						}
+					}
+					p{
+						align-self: center;
+						color: black;
+						font-size: 30px;
+						@include font-SFPro-Regular;
+						line-height: 1.5;
+						margin-bottom: 0;
+						text-align: justify;
+						@media (max-width: 1364.98px){
+							font-size: 24px;
+						}
+						@media (max-width: 1023.98px){
+							font-size: 16px;
+						}
+						a{
+							color: #009CEA;
+						}
+					}
+				}
+				.dental-radio-feature-item-image{
+					display: grid;
+					grid-template-columns: 1fr;
+					grid-template-rows: 1fr;
+					//padding: 0 50px;
+					@media (max-width: 1023.98px){
+						margin-bottom: 30px;
+						//padding: 0;
+					}
+					span{
+						align-self: center;
+						display: inline-grid;
+						justify-self: center;
+					}
+				}
+				//&:nth-child(2n+2){
+				//	.dental-radio-feature-item-text{
+				//		p{
+				//			@media (min-width: 1024px){
+				//				text-align: right;
+				//			}
+				//		}
+				//	}
+				//}
+				&:nth-child(2n+2){
+					//grid-template-columns: calc(40% - 50px) 1fr;
+					//@media (max-width: 1364.98px){
+					//	grid-template-columns: calc(40% - 30px) 1fr;
+					//}
+					//@media (max-width: 1023.98px){
+					//	grid-template-columns: 1fr;
+					//}
+					.dental-radio-feature-item-image{
+						@media (min-width: 1024px){
+							grid-column-start: 1;
+							grid-row-start: 1;
+						}
+					}
+				}
+			}
+		}
+		.dental-radio-feature-apple-icon{
+			img{
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 60px;
+			}
+		}
+	}
+}
+.dental-internet-radio{
+	background-color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-internet-radio-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 50px;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-internet-radio-header{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1300px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				text-align: center;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				text-align: center;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.dental-radio-podcasts{
+	background-color: black;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-radio-podcasts-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1060px;
+		h2{
+			color: white;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			letter-spacing: 1px;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			color: white;
+			font-size: 30px;
+			@include font-SFPro-Light;
+			letter-spacing: 1px;
+			line-height: 2;
+			margin-bottom: 0;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+		}
+	}
+}
