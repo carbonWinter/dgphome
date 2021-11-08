@@ -254,6 +254,46 @@
 				}
 			}
 		}
+		.dental-radio-features-heading{
+			margin-bottom: 45px;
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 1200px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size : 60px;
+				@include font-Orbitron-Black;
+				letter-spacing : 6px;
+				line-height : 1.5;
+				margin-bottom: 30px;
+				text-align: center;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 1.5;
+				margin-bottom: 0;
+				text-align: center;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
 		.dental-radio-feature-item-group{
 			display: grid;
 			grid-template-columns: 1fr;
