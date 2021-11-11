@@ -1,0 +1,383 @@
+.logo-design-features{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1364.98px) {
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px) {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.logo-design-features-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.logo-design-features-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1200px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.logo-design-features-group{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-row-gap: 90px;
+			@media (max-width: 1440px){
+				grid-row-gap: 60px;
+			}
+			@media (max-width: 1199.98px){
+				grid-row-gap: 30px;
+			}
+			.logo-design-features-item{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				@media (max-width: 1023.98px){
+					grid-template-columns: 1fr;
+					grid-row-gap: 30px;
+				}
+				&:nth-child(2n+1){
+					.logo-design-features-item-content{
+						@media (min-width: 1024px){
+							padding-right: 40px;
+						}
+					}
+				}
+				&:nth-child(2n+2){
+					.logo-design-features-item-content{
+						@media (min-width: 1024px){
+							order: 2;
+							padding-left: 40px;
+						}
+					}
+				}
+				.logo-design-features-item-image{
+					display: grid;
+					grid-template-columns: 1fr;
+					span{
+						align-self: center;
+						display: inline-grid;
+					}
+				}
+				.logo-design-features-item-content{
+					display: grid;
+					grid-template-columns: 1fr;
+					.text-content{
+						align-self: center;
+						display: grid;
+						grid-template-columns: 1fr;
+					}
+				}
+			}
+		}
+	}
+}
+.dental-great-logo-design{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1364.98px) {
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px) {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-great-logo-design-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-great-logo-design-heading{
+			margin-bottom: 60px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1200px;
+			width: 100%;
+			@media (max-width: 1199.98px){
+				margin-bottom: 30px;
+			}
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.dental-great-logo-design-apple-icon{
+			img{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+	img{
+		&.w-100{
+			margin-bottom: 60px;
+			@media (max-width: 1199.98px){
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+.dental-brand-logo{
+	background-color: white;
+	padding-bottom: 160px;
+	padding-top: 160px;
+	@media (max-width: 1364.98px) {
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px) {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-brand-logo-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-brand-logo-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1200px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.dental-amazing-logo{
+	background-color: black;
+	color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-amazing-logo-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1200px;
+		width: 100%;
+		h2{
+			//color: black;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			//color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			&:not(:last-child){
+				margin-bottom: 50px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+	}
+}
+.dental-logo-design-accordions{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-logo-design-accordions-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+	}
+}
