@@ -1,0 +1,443 @@
+.dental-dentist-websites{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1199.98px){
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.dental-dentist-websites-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		width: 100%;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-dentist-websites-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1020px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 30px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+		.owl-carousel{
+			overflow: hidden;
+			.owl-stage{
+				margin-bottom: 40px;
+			}
+			.owl-dots{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				.owl-dot{
+					background-color: black;
+					border: none;
+					height: 25px;
+					outline: none;
+					transition: all 0.3s ease-in-out 0s;
+					width: 25px;
+					&:not(:last-child){
+						margin-right: 30px;
+						@media (max-width: 767.98px){
+							margin-right: 15px;
+						}
+					}
+					&:hover,
+					&:focus,
+					&.active{
+						background-color: #009cea;
+					}
+				}
+			}
+		}
+	}
+}
+.dental-websites-seo{
+	background-color: black;
+	color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-websites-seo-wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1200px;
+		width: 100%;
+		h2{
+			//color: black;
+			font-size: 60px;
+			@include font-Orbitron-Black;
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			@media (max-width: 1364.98px){
+				font-size: 48px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 36px;
+			}
+			@media (max-width: 767.98px){
+				font-size: 30px;
+			}
+		}
+		p{
+			//color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			&:not(:last-child){
+				margin-bottom: 50px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+	}
+}
+.dental-websites-features{
+	background-color: white;
+	padding-bottom: 60px;
+	padding-top: 90px;
+	.dental-websites-features-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-websites-features-group{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-row-gap: 90px;
+			@media (max-width: 1440px){
+				grid-row-gap: 60px;
+			}
+			@media (max-width: 1199.98px){
+				grid-row-gap: 30px;
+			}
+			.dental-websites-features-item{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				@media (max-width: 1023.98px){
+					grid-template-columns: 1fr;
+					grid-row-gap: 30px;
+				}
+				&:nth-child(2n+1){
+					.dental-websites-features-item-content{
+						@media (min-width: 1024px){
+							padding-right: 40px;
+						}
+					}
+				}
+				&:nth-child(2n+2){
+					.dental-websites-features-item-content{
+						@media (min-width: 1024px){
+							order: 2;
+							padding-left: 40px;
+						}
+					}
+				}
+				.dental-websites-features-item-image{
+					display: grid;
+					grid-template-columns: 1fr;
+					span{
+						align-self: center;
+						display: inline-grid;
+					}
+				}
+				.dental-websites-features-item-content{
+					display: grid;
+					grid-template-columns: 1fr;
+					.text-content{
+						align-self: center;
+						display: grid;
+						grid-template-columns: 1fr;
+					}
+					h3{
+						color: black;
+						font-size: 50px;
+						@include font-LoRes-12-OT-Regular;
+						line-height: 1.25;
+						margin-bottom: 30px;
+						text-transform: uppercase;
+						@media (max-width: 1364.98px){
+							font-size: 36px;
+						}
+						@media (max-width: 1023.98px){
+							font-size: 30px;
+						}
+					}
+				}
+			}
+		}
+		.dental-websites-features-apple-icon{
+			img{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+.dental-websites-writing{
+	background-color: white;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-websites-writing-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-websites-writing-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1200px;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.dental-websites-fun{
+	background-color: white;
+	padding-bottom: 60px;
+	padding-top: 120px;
+	@media (max-width: 1364.98px){
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-top: 60px;
+	}
+	.dental-websites-fun-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+		.dental-websites-fun-heading{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			width: 100%;
+			h2{
+				color: black;
+				font-size: 60px;
+				@include font-Orbitron-Black;
+				line-height: 1.5;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				@media (max-width: 1364.98px){
+					font-size: 48px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 36px;
+				}
+				@media (max-width: 767.98px){
+					font-size: 30px;
+				}
+			}
+			p{
+				color: black;
+				font-size: 30px;
+				@include font-SFPro-Light;
+				line-height: 2;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 900px;
+				@media (max-width: 1364.98px){
+					font-size: 24px;
+				}
+				@media (max-width: 1023.98px){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.dental-websites-accordions{
+	background-color: white;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	@media (max-width: 1364.98px){
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	@media (max-width: 1199.98px){
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.dental-websites-accordions-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 60px;
+		@media (max-width: 1199.98px){
+			grid-row-gap: 30px;
+		}
+		p{
+			color: black;
+			font-size: 30px;
+			@include font-SFPro-Regular;
+			line-height: 1.5;
+			margin-bottom: 0;
+			text-align: justify;
+			@media (max-width: 1364.98px){
+				font-size: 24px;
+			}
+			@media (max-width: 1023.98px){
+				font-size: 16px;
+			}
+			a{
+				color: #009CEA;
+			}
+		}
+	}
+}
