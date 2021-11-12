@@ -504,10 +504,10 @@ template {
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-     -moz-animation-duration: 1000ms;
-       -o-animation-duration: 1000ms;
-          animation-duration: 1000ms;
+  -webkit-animation-duration: 6000ms;
+     -moz-animation-duration: 6000ms;
+       -o-animation-duration: 6000ms;
+          animation-duration: 6000ms;
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
        -o-animation-fill-mode: both;
