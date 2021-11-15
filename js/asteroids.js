@@ -1,13 +1,13 @@
 let canvas;
 let ctx;
-let canvasWidth = 1400;
-let canvasHeight = 1000;
+let canvasWidth = 1920;
+let canvasHeight = 1080;
 let ship;
 let keys = [];
 let bullets = [];
 let asteroids = [];
 let score = 0;
-let lives = 3;
+let lives = 6;
 document.addEventListener('DOMContentLoaded', SetupCanvas);
 
 function SetupCanvas(){
@@ -207,14 +207,14 @@ function Render() {
   }
   ctx.clearRect(0, 0, canvasWidth, canvasHeight);
   ctx.fillStyle = 'white';
-  ctx.font = '21px Arial';
+  ctx.font = '21px lores-12';
   ctx.fillText("SCORE : " + score.toString(), 20, 35);
   if(lives <= 0){
     document.body.removeEventListener("keydown", HandleKeyDown);
     document.body.removeEventListener("keyup", HandleKeyUp);
     ship.visible = false;
     ctx.fillStyle = 'white';
-    ctx.font = '50px Arial';
+    ctx.font = '50px lores-12';
     ctx.fillText("GAME OVER", canvasWidth / 2 - 150, canvasHeight / 2);
   }
   if(asteroids.length === 0){

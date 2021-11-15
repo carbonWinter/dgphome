@@ -1876,7 +1876,7 @@ body.mobile-menu-open .mobile-menu {
 .home-services .home-services-wrapper .home-services-item h3 {
   color: black;
   font-size: 40px;
-  font-family: "orbitron", sans-serif;
+  font-family: "lores-12", sans-serif;
   font-weight: 900;
   letter-spacing: 4px;
   line-height: 1.25;
@@ -2899,7 +2899,7 @@ body.mobile-menu-open .mobile-menu {
 .dmppc-dentistry .dmppc-dentistry-wrapper .dmppc-dentistry-item-group .dmppc-dentistry-item .dmppc-dentistry-item-text h3 {
   color: black;
   font-size: 40px;
-  font-family: "orbitron", sans-serif;
+  font-family: "lores-12", sans-serif;
   font-weight: 900;
   line-height: 1.25;
   margin-bottom: 30px;
@@ -5150,8 +5150,8 @@ body.mobile-menu-open .mobile-menu {
 .dental-tv-ads .dental-tv-ads-wrapper .dental-tv-ads-heading h2 {
   color: black;
   font-size: 60px;
-  font-family: "orbitron", sans-serif;
-  font-weight: 900;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -5486,8 +5486,8 @@ body.mobile-menu-open .mobile-menu {
   color: white;
   display: inline-block;
   font-size: 60px;
-  font-family: "orbitron", sans-serif;
-  font-weight: 900;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 30px;
   text-align: center;
@@ -8620,4 +8620,10 @@ body.mobile-menu-open .mobile-menu {
   align-self: center;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#my-canvas{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
