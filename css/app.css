@@ -8262,6 +8262,14 @@ body.mobile-menu-open .mobile-menu {
   z-index: 1;
 }
 
+.dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image .video-icon img.after-rollover {
+  display: none;
+}
+
+.dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image .video-icon img.before-rollover {
+  display: block;
+}
+
 .dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-content {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -8348,6 +8356,14 @@ body.mobile-menu-open .mobile-menu {
 }
 .dental-videos .dental-videos-group .dental-videos-item:hover, .dental-videos .dental-videos-group .dental-videos-item:focus {
   text-decoration: none;
+}
+
+.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.after-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.after-rollover {
+  display: block;
+}
+
+.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.before-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.before-rollover {
+  display: none;
 }
 
 @media (min-width: 1024px) {
