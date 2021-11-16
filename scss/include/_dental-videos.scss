@@ -89,12 +89,18 @@
 			}
 			.dental-videos-item-image{
 				position: relative;
-				&:before{
-					background-color: rgba(black, 0.25);
-					content: '';
-					height: 100%;
-					position: absolute;
-					width: 100%;
+				// &:before{
+				// 	background-color: rgba(black, 0.25);
+				// 	content: '';
+				// 	height: 100%;
+				// 	position: absolute;
+				// 	width: 100%;
+				// }
+				img{
+					&.img-responsive{
+						filter: grayscale(100%);
+						transition: all 0.3s ease-in-out 0s;
+					}
 				}
 				.video-icon{
 					position: absolute;
@@ -163,11 +169,18 @@
 				text-decoration: none;
 				.dental-videos-item-image{
 					img{
-						&.after-rollover{
-							display: block;
+						&.img-responsive{
+							filter: grayscale(0);
 						}
-						&.before-rollover{
-							display: none;
+					}
+					.video-icon{
+						img{
+							&.after-rollover{
+								display: block;
+							}
+							&.before-rollover{
+								display: none;
+							}
 						}
 					}
 				}

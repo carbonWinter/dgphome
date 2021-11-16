@@ -504,10 +504,10 @@ template {
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-     -moz-animation-duration: 1000ms;
-       -o-animation-duration: 1000ms;
-          animation-duration: 1000ms;
+  -webkit-animation-duration: 6000ms;
+     -moz-animation-duration: 6000ms;
+       -o-animation-duration: 6000ms;
+          animation-duration: 6000ms;
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
        -o-animation-fill-mode: both;
@@ -1112,12 +1112,6 @@ body {
     font-size: 36px;
   }
 }
-#my-canvas {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 .main-menu {
   background-color: black;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -1883,7 +1877,7 @@ body.mobile-menu-open .mobile-menu {
   color: black;
   font-size: 40px;
   font-family: "lores-12", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: 4px;
   line-height: 1.25;
   text-align: center;
@@ -2906,7 +2900,7 @@ body.mobile-menu-open .mobile-menu {
   color: black;
   font-size: 40px;
   font-family: "lores-12", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.25;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -8253,13 +8247,12 @@ body.mobile-menu-open .mobile-menu {
   position: relative;
 }
 
-.dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image img.img-responsive {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+.dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image:before {
+  background-color: rgba(0, 0, 0, 0.25);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image .video-icon {
@@ -8365,16 +8358,11 @@ body.mobile-menu-open .mobile-menu {
   text-decoration: none;
 }
 
-.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.img-responsive, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.img-responsive {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-}
-
-.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image .video-icon img.after-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image .video-icon img.after-rollover {
+.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.after-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.after-rollover {
   display: block;
 }
 
-.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image .video-icon img.before-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image .video-icon img.before-rollover {
+.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.before-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.before-rollover {
   display: none;
 }
 
@@ -8648,4 +8636,10 @@ body.mobile-menu-open .mobile-menu {
   align-self: center;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#my-canvas{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
