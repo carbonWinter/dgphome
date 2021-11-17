@@ -1067,7 +1067,12 @@ body {
 
 @media (max-width: 575.98px) {
   .inner-banner .inner-banner-wrapper .inner-banner-center .inner-banner-content span {
-    font-size: 30px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 424.98px) {
+  .inner-banner .inner-banner-wrapper .inner-banner-center .inner-banner-content span {
+    font-size: 24px;
   }
 }
 .game-gose-box-removal {
@@ -1116,6 +1121,187 @@ body {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.contact-popup {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 30px 15px;
+  position: fixed;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1050;
+}
+
+.contact-popup .contact-popup-wrapper {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  background: -webkit-gradient(linear, left top, right top, from(#d9e021), color-stop(27%, #22b573), color-stop(52%, #009dff), to(#ed1e79));
+  background: -webkit-linear-gradient(left, #d9e021 0%, #22b573 27%, #009dff 52%, #ed1e79 100%);
+  background: -moz-linear-gradient(left, #d9e021 0%, #22b573 27%, #009dff 52%, #ed1e79 100%);
+  background: -o-linear-gradient(left, #d9e021 0%, #22b573 27%, #009dff 52%, #ed1e79 100%);
+  background: linear-gradient(to right, #d9e021 0%, #22b573 27%, #009dff 52%, #ed1e79 100%);
+  justify-self: center;
+  max-width: 370px;
+  padding: 2px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-popup .contact-popup-wrapper .contact-popup-close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.contact-popup .contact-popup-wrapper form {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  padding: 30px 20px;
+}
+
+.contact-popup .contact-popup-wrapper form h4 {
+  color: black;
+  font-size: 30px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+  .contact-popup .contact-popup-wrapper form h4 {
+    font-size: 26px;
+  }
+}
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input {
+  border-color: #808080;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  border-style: solid;
+  border-width: 0 0 1px;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+  color: black;
+  font-size: 20px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.25;
+  outline: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input::-webkit-input-placeholder {
+  color: black;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input::-moz-placeholder {
+  color: black;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input:-moz-placeholder {
+  color: black;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input::-ms-input-placeholder {
+  color: black;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group .contact-popup-input:-ms-input-placeholder {
+  color: black;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 72px;
+  justify-self: center;
+  padding: 0;
+  position: relative;
+  width: 200px;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button svg .cls-1 {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button span {
+  color: white;
+  font-size: 26px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  left: 50%;
+  letter-spacing: 2.6px;
+  line-height: 1.25;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: 1;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button:hover svg .cls-1, .contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button:focus svg .cls-1 {
+  fill: white;
+}
+
+.contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button:hover span, .contact-popup .contact-popup-wrapper form .form-group:last-child .contact-popup-button:focus span {
+  color: black;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+body.modal-open .contact-popup {
+  opacity: 1;
+  visibility: visible;
 }
 
 .main-menu {
@@ -1406,7 +1592,7 @@ body {
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   width: 100%;
-  z-index: 9999;
+  z-index: 1040;
 }
 
 .mobile-menu .mobile-menu-header {
@@ -4493,17 +4679,40 @@ body.mobile-menu-open .mobile-menu {
 }
 
 .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item {
-  display: grid;
-  grid-template-columns: 105px 1fr;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .icon {
-  padding-right: 24px;
+  -webkit-flex-basis: 105px;
+      -ms-flex-preferred-size: 105px;
+          flex-basis: 105px;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+     -moz-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  max-width: 105px;
 }
 
 .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .icon img {
   margin-left: auto;
   margin-right: auto;
+}
+
+.dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content {
+  padding-left: 24px;
 }
 
 .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-text {
@@ -4518,6 +4727,17 @@ body.mobile-menu-open .mobile-menu {
   text-transform: uppercase;
 }
 
+@media (max-width: 767.98px) {
+  .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-text {
+    font-size: 30px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-text {
+    font-size: 24px;
+  }
+}
 .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-note {
   color: black;
   display: block;
@@ -4528,6 +4748,16 @@ body.mobile-menu-open .mobile-menu {
   text-transform: uppercase;
 }
 
+@media (max-width: 767.98px) {
+  .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-note {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .dental-radio-features .dental-radio-features-group .dental-radio-features-list .dental-radio-features-list-item .text-content .dental-radio-features-list-item-note {
+    font-size: 16px;
+  }
+}
 .dental-radio-feature {
   padding-bottom: 60px;
   padding-top: 165px;

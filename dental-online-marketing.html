@@ -106,7 +106,7 @@
 					</div>
 					<!-- Each item -->
 					<div class="mobile-menu-item">
-						<a class="mobile-menu-link" href="javascript:void(0);">Contact US</a>
+						<a class="mobile-menu-link contact-open-modal" href="javascript:void(0);">Contact US</a>
 					</div>
 					<!-- Each item -->
 				</div>
@@ -210,7 +210,7 @@
 										</li>
 										<!-- Each item -->
 										<li class="nav-item">
-											<a href="javascript:void(0);" class="nav-link">contact</a>
+											<a href="javascript:void(0);" class="nav-link contact-open-modal">contact</a>
 										</li>
 										<!-- Each item -->
 										<li class="nav-item">
@@ -498,6 +498,36 @@
 			<!-- Scroll top action end -->
 		</div>
 		<!-- Page wrapper end -->
+		<!-- Contact popup -->
+		<div class="contact-popup">
+			<div class="contact-popup-wrapper">
+				<button type="button" class="contact-popup-close">
+					<i class="fal fa-times"></i>
+				</button>
+				<form action="" method="POST">
+					<h4 class="text-center">This is the title for what the popvup says!</h4>
+					<div class="form-group">
+						<input type="text" name="" class="contact-popup-input" placeholder="Name" required />
+					</div>
+					<div class="form-group">
+						<input type="email" name="" class="contact-popup-input" placeholder="Email" required />
+					</div>
+					<div class="form-group">
+						<input type="text" name="" class="contact-popup-input" placeholder="Phone" pattern="[0-9]{10}" required />
+					</div>
+					<div class="form-group">
+						<input type="text" name="" class="contact-popup-input" placeholder="Practice Name" required />
+					</div>
+					<div class="form-group">
+						<button type="submit" class="contact-popup-button">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 201.64 74"><defs><style>.cls-1{stroke-miterlimit:10;stroke-width:2px;stroke:url(#New_Gradient_Swatch_2);}</style><linearGradient id="New_Gradient_Swatch_2" y1="37" x2="201.64" y2="37" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9e021"/><stop offset="0.03" stop-color="#d0de25"/><stop offset="0.08" stop-color="#b6d831"/><stop offset="0.14" stop-color="#8dce43"/><stop offset="0.21" stop-color="#54c15d"/><stop offset="0.27" stop-color="#22b573"/><stop offset="0.5" stop-color="#0075be"/><stop offset="0.78" stop-color="#662d91"/><stop offset="0.99" stop-color="#ed1e79"/></linearGradient></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="8.92 57.15 8.92 65.08 16.83 65.08 16.85 65.08 16.85 73 184.79 73 184.79 65.08 192.71 65.08 192.71 57.15 200.64 57.15 200.64 16.85 192.71 16.85 192.71 8.92 184.79 8.92 184.79 8.91 184.79 1 16.85 1 16.85 8.91 16.83 8.91 16.83 8.92 8.92 8.92 8.92 16.85 8.92 16.85 8.91 16.85 1 16.85 1 57.15 8.92 57.15 8.92 57.15 8.92 57.15"/></g></g></svg>
+							<span>Save</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Contact popup end -->
 		<script src="js/jquery.min.js"></script>
 		<script>
 			$(window).on('load resize', function(e){
@@ -546,6 +576,18 @@
                     $this.parents('.mobile-menu-item').addClass('sub-menu-active');
                 }
             });
+            $(function(){
+				$('.contact-open-modal').on('click', function(e){
+					e.preventDefault();
+					e.stopPropagation();
+					$(this).parents('body').addClass('modal-open');
+				});
+				$('.contact-popup-close').on('click', function(e){
+					e.preventDefault();
+					e.stopPropagation();
+					$(this).parents('body').removeClass('modal-open');
+				});
+			});
 		</script>
 		<script>
 			$('.accordion-item-toggle').click(function(e) {
