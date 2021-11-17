@@ -504,10 +504,10 @@ template {
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-     -moz-animation-duration: 1000ms;
-       -o-animation-duration: 1000ms;
-          animation-duration: 1000ms;
+  -webkit-animation-duration: 6000ms;
+     -moz-animation-duration: 6000ms;
+       -o-animation-duration: 6000ms;
+          animation-duration: 6000ms;
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
        -o-animation-fill-mode: both;
@@ -3090,7 +3090,7 @@ body.mobile-menu-open .mobile-menu {
 }
 .dmppc-dentistry .dmppc-dentistry-wrapper .dmppc-dentistry-item-group .dmppc-dentistry-item .dmppc-dentistry-item-text h3 {
   color: black;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "lores-12", sans-serif;
   font-weight: 400;
   line-height: 1.25;
@@ -8483,14 +8483,6 @@ body.mobile-menu-open .mobile-menu {
   position: relative;
 }
 
-/*
-.dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image:before {
-  background-color: rgba(0, 0, 0, 0.25);
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-*/
 .dental-videos .dental-videos-group .dental-videos-item .dental-videos-item-image img.img-responsive {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -8602,14 +8594,6 @@ body.mobile-menu-open .mobile-menu {
 .dental-videos .dental-videos-group .dental-videos-item:hover, .dental-videos .dental-videos-group .dental-videos-item:focus {
   text-decoration: none;
 }
-
-/*
-.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.after-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.after-rollover {
-  display: block;
-}
-
-.dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.before-rollover, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.before-rollover {
-*/
 
 .dental-videos .dental-videos-group .dental-videos-item:hover .dental-videos-item-image img.img-responsive, .dental-videos .dental-videos-group .dental-videos-item:focus .dental-videos-item-image img.img-responsive {
   -webkit-filter: grayscale(0);
@@ -8894,10 +8878,4 @@ body.mobile-menu-open .mobile-menu {
   align-self: center;
   display: grid;
   grid-template-columns: 1fr;
-}
-
-#my-canvas{
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
 }
