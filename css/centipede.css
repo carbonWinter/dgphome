@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.info {
+  float: left;
+  padding: 80px 50px 0 50px;
+  width: 410px;
+  color: gray;
+}
+
+.info ul {
+  list-style-type: decimal;
+}
+
+.game {
+  float: left;
+}
+
+.game h1 {
+  text-align: center;
+}
+
+canvas {
+  cursor: none;
+}
