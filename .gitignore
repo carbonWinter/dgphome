@@ -1,3 +1,6 @@
 node_modules
 .idea
 package-lock.json
+_site
+.DS_Store
+.jekyll_cache
