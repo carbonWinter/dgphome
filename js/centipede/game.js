@@ -231,7 +231,7 @@
     ctx.fillStyle = "#000000";
     ctx.fillRect(0, 0, this.xEnd, this.yStart);
     ctx.fillStyle = "white";
-    ctx.font = Centipede.squareSize + "pt 'orbitron', sans-serif ";
+    ctx.font = Centipede.squareSize + "pt 'lores-12', sans-serif ";
     ctx.textAlign = 'center';
     if (this.hasStarted) {
       var infoText = "Score: " + this.score + "      " + "Level: " + this.level;
