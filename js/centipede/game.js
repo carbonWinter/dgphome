@@ -17,6 +17,8 @@
     this.xEnd = (this.xDim / 2) + 12.5 * Centipede.squareSize;
     Centipede.canvasEl.width = this.xDim;
     Centipede.canvasEl.height = this.yDim;
+
+    console.log(`This x Dimension ${this.xDim} y Dimension ${this.yDim}`);
   };
 
   Game.prototype.setSquareSize = function () {
@@ -226,10 +228,10 @@
 
   Game.prototype.draw = function (ctx) {
     ctx.clearRect(0, 0, this.xEnd, this.yEnd);
-    ctx.fillStyle = "#444444";
+    ctx.fillStyle = "#000000";
     ctx.fillRect(0, 0, this.xEnd, this.yStart);
-    ctx.fillStyle = "#22ff22";
-    ctx.font = Centipede.squareSize + "pt Arial ";
+    ctx.fillStyle = "white";
+    ctx.font = Centipede.squareSize + "pt 'lores-12', sans-serif ";
     ctx.textAlign = 'center';
     if (this.hasStarted) {
       var infoText = "Score: " + this.score + "      " + "Level: " + this.level;
