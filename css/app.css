@@ -5722,11 +5722,12 @@ body.mobile-menu-open .mobile-menu {
   color: white;
   display: inline-block;
   font-size: 60px;
-  font-family: "lores-12", sans-serif;
-  font-weight: 400;
+/*  font-family: "lores-12", sans-serif;*/
+  font-size: 60px;
+  font-family: "orbitron", sans-serif;
+  font-weight: 900;
   line-height: 1.5;
   margin-bottom: 30px;
-  text-align: center;
   text-transform: uppercase;
 }
 
