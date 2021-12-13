@@ -1,0 +1,94 @@
+.contact-form{
+	background: linear-gradient(to right, #d9e021 0%,#22b573 27%,#009dff 52%,#ed1e79 100%);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1020px;
+	padding: 2px;
+	width: 100%;
+	.contact-form-wrapper{
+		background-color: white;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		padding: 30px 20px;
+		width: 100%;
+		.form-group{
+			.form-control{
+				border-color: #808080;
+				border-radius: 0;
+				border-style: solid;
+				border-width: 0 0 1px;
+				box-shadow: none;
+				color: black;
+				font-size: 20px;
+				@include font-Orbitron-Black;
+				letter-spacing: 2px;
+				line-height: 1.25;
+				outline: none;
+				text-transform: uppercase;
+				width: 100%;
+				&::-webkit-input-placeholder{
+					color: black;
+				}
+				&::-moz-placeholder{
+					color: black;
+				}
+				&:-moz-placeholder{
+					color: black;
+				}
+				&::-ms-input-placeholder{
+					color: black;
+				}
+				&:-ms-input-placeholder{
+					color: black;
+				}
+			}
+			&:last-child{
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 1fr;
+				.contact-popup-button{
+					align-self: center;
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+					height: 72px;
+					justify-self: center;
+					padding: 0;
+					position: relative;
+					width: 200px;
+					svg{
+						.cls-1{
+							transition: all 0.3s ease-in-out 0s;
+						}
+					}
+					span{
+						color: white;
+						font-size: 26px;
+						@include font-LoRes-12-OT-Regular;
+						left: 50%;
+						letter-spacing: 2.6px;
+						line-height: 1.25;
+						position: absolute;
+						text-transform: uppercase;
+						top: 50%;
+						transform: translate(-50%, -50%);
+						transition: all 0.3s ease-in-out 0s;
+						z-index: 1;
+					}
+					&:hover,
+					&:focus{
+						svg{
+							.cls-1{
+								fill: white;
+							}
+						}
+						span{
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+}
