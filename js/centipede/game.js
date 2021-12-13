@@ -10,8 +10,14 @@
   Game.prototype.organizeCanvas = function () {
     this.setSquareSize();
     this.xDim = 25 * Centipede.squareSize;
-    this.yStart = 1.5 * Centipede.squareSize;
-    this.yDim = this.yStart + 30 * Centipede.squareSize;
+    // Bret Commented out - this doubles the height
+    // this.yStart = 1.5 * Centipede.squareSize;
+    this.yStart = Centipede.squareSize;
+    // this.yDim = this.yStart + 30 * Centipede.squareSize;
+
+    console.log(`Centipede Square Size ${Centipede.squareSize}`);
+
+    this.yDim = this.yStart * Centipede.squareSize;
     this.yEnd = this.yDim;
     this.xStart = (this.xDim / 2) - 12.5 * Centipede.squareSize;
     this.xEnd = (this.xDim / 2) + 12.5 * Centipede.squareSize;
@@ -22,10 +28,18 @@
   };
 
   Game.prototype.setSquareSize = function () {
-    var xSpace = window.innerWidth - 540;
-    var ySpace = window.innerHeight - 80;
-    var yLimitedSize = Math.floor(ySpace / 31.5);
-    var xLimitedSize = Math.floor(xSpace / 25);
+    // Attempting Resize
+    // var xSpace = window.innerWidth - 540;
+    // var ySpace = window.innerHeight - 80;
+    console.log(`Window Inner Width ${window.innerWidth} Inner Height ${window.innerHeight}`);
+    var xSpace = window.innerWidth;
+    var ySpace = window.innerHeight;
+    // Resize
+    // var yLimitedSize = Math.floor(ySpace / 31.5);
+    // var xLimitedSize = Math.floor(xSpace / 25);
+    var xLimitedSize = Math.floor(xSpace / 12.5);
+    var yLimitedSize = Math.floor(ySpace / 25);
+    // Centipede.squareSize = Math.min(24, yLimitedSize, xLimitedSize);
     Centipede.squareSize = Math.min(24, yLimitedSize, xLimitedSize);
   };
 
@@ -239,7 +253,10 @@
       ctx.fillText(
         infoText,
         0.5 * (this.xEnd - this.xStart) + this.xStart,
-        1.25 * Centipede.squareSize
+        1 * Centipede.squareSize
+        // Original Text Dimensions
+        // 0.5 * (this.xEnd - this.xStart) + this.xStart,
+        // 1.25 * Centipede.squareSize
       );
     }
     ctx.fillStyle = "#000000";

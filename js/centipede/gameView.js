@@ -3,6 +3,8 @@
   var GameView = Centipede.GameView = function (game, ctx) {
     this.game = game;
     this.ctx = ctx;
+    this.ctx.imageSmoothingEnabled = false;
+    this.ctx.mozImageSmoothingEnabled = false;
 
   };
 
