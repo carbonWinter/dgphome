@@ -44,7 +44,8 @@ $('#leadForm').submit(async function(event) {
 
     //"BgCOwE_tEe2pq_8debCIIg"
     await submitToSalesJet("BgCOwE_tEe2pq_8debCIIg", "dgp form submission", values?.email, firstName, lastName, values?.phone);
-
+    window.location.assign("/thank-you");
+    
     console.log(values);
 
     return false; // return false to cancel form action
